@@ -1,0 +1,107 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1566577739112-5180d4bf9390?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1526&q=80), linear-gradient(black, whitesmoke, white);
+    background-blend-mode: multiply;
+    background-position: top;
+        /* background-attachment: fixed; */
+        /* background-size: cover; */
+        /* background-repeat: no-repeat;    */
+    border: 10px solid white;
+    padding-top: 40px;
+    margin: 0;
+  }
+  
+h1 {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    border: 3px solid white;
+    width: 60%;
+    margin: 0 auto;
+    padding: .80em 0;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 3px solid white;
+    border-top: none;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 1.5em 2em;
+}
+
+#description {
+   
+}
+
+form > label,
+div > span {
+    width: 100%;
+    display: block;
+}
+
+form label > span {
+    display: block;
+    float: left;
+	width: auto;
+	font-size: 1.05em;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form textarea {
+    display: block;
+    background: #fff;
+        border: 1px solid #ccc;
+    color: #555;
+    outline: none;
+    width: 100%;
+	padding: 1%;
+}
+
+form input:focus,
+form textarea:focus,
+form option:focus {
+    border: 1px solid #3b88fb;
+    box-shadow: 0 0 5px #3b88fb;
+    padding: 3%;	
+}
+
+div {
+    text-align: left;
+}
+
+div > label {
+    padding: 0 1em;
+}
+
+form select {
+    width: 50%;
+    max-width: 150px;
+}
+
+form input[type="reset"],
+form input[type="submit"],
+form input[type="button"] {
+	max-width: 350px;
+	padding: 3% 15%;
+	background: #3b88fb;
+    border-bottom: 2px solid #2960b3;
+    border-radius: 8px;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+}
+
+form input[type="reset"]:hover,
+form input[type="submit"]:hover,
+form input[type="button"]:hover {
+    background: #2960b3;
+}
+
+
+
